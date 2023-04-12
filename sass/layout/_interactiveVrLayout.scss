@@ -1,0 +1,119 @@
+@use '../utilities/variables';
+
+
+
+.interactiveVr{
+
+
+
+
+   
+
+
+
+    .fondo{
+        height: 200px;
+        background-image: url('../../images/mobile/image-interactive.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        @media (min-width: 1440px) {
+            background-image: url('../../images/desktop/image-interactive.jpg');  
+        }
+    }
+
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+    h1{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    p{
+        text-align: center;
+    }
+}
+
+
+/*.interactiveVr{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+
+    padding-top: 160px;
+
+
+    
+
+    .fondo {
+        background-image: url('../../images/mobile/image-interactive.jpg');       
+        background-repeat: no-repeat;
+        
+        background-size: 340px 250px;
+        width: 340px;
+        height: 300px;
+        
+        
+
+        @media (min-width: 1440px) {
+            background-image: url('../../images/desktop/image-interactive.jpg');
+            width: 730px;
+            height: 500px;
+            background-size: 730px, 500px;
+            position: relative;
+        }
+
+
+
+    }
+
+}
+
+.interactiveContainer{
+
+
+    text-align: center;
+
+   
+
+
+    
+
+   
+
+    /*@media (min-width: 1440px) {
+       justify-content: flex-end;  
+        position: absolute; 
+        left: 550px;
+        top: 160px;  
+        width: 500px;
+        height: 340px;   
+    }*/
+
+  
+
+   
+    /*background-color: variables.$white;
+    
+   
+
+   
+    h1{
+        padding-bottom: 40px;
+
+
+    }
+
+
+}*/
