@@ -7,16 +7,16 @@
     font-size: variables.$sizeFont;
 }
 
-
 li, p, .separator h1, .interactiveVr h1, .card h1, .mobile-nav a{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
 }
 
 .card h1{
-    font-size: 40px;
     color: variables.$white;
     text-transform: uppercase;
+    font-size: 40px;
+
 
     @media (min-width: 1440px) {
         font-size: 60px;
@@ -41,13 +41,11 @@ footer p{
 
 
 
-.separator, .interactiveVr {
-    h1{
+.separator, .interactiveVr, .mobile-nav {
+    h1, a{
         text-transform: uppercase;
         font-size: 30px;
-    }
-
-    
+    } 
 }
 
 .interactiveVr{
@@ -58,10 +56,6 @@ footer p{
     }
 }
 
-.mobile-nav a{
-    font-size: 30px;
-    text-transform: uppercase;
-}
 
 
 .contenedor p{

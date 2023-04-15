@@ -6,29 +6,72 @@
 
 
 
+    //padding-top: 100px;
+    
+
+    @media (min-width: 1440px) {
+        padding-top: 160px;
+    }
+
 
    
+   
+   
+
+    .interactiveContainer{
+        
+        
 
 
+        
+        padding-left: 10%;
+
+
+
+        @media (min-width: 1440px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            width: 40%;
+            height: 300px;
+
+            h1, p{
+                text-align: start;
+            }
+        }
+
+       
+       
+
+    }
 
     .fondo{
         height: 200px;
+       
         background-image: url('../../images/mobile/image-interactive.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size:cover;
+       
         @media (min-width: 1440px) {
-            background-image: url('../../images/desktop/image-interactive.jpg');  
+            background-image: url('../../images/desktop/image-interactive.jpg'); 
+            width: 60%;
+            height: 500px;
         }
     }
 
 
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+   
+   
 
-    
-    padding-left: 20px;
-    padding-right: 20px;
+
+    @media (min-width: 1440px) {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+       
+    }
+
 
 
     h1{
@@ -40,80 +83,3 @@
         text-align: center;
     }
 }
-
-
-/*.interactiveVr{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-
-
-    padding-top: 160px;
-
-
-    
-
-    .fondo {
-        background-image: url('../../images/mobile/image-interactive.jpg');       
-        background-repeat: no-repeat;
-        
-        background-size: 340px 250px;
-        width: 340px;
-        height: 300px;
-        
-        
-
-        @media (min-width: 1440px) {
-            background-image: url('../../images/desktop/image-interactive.jpg');
-            width: 730px;
-            height: 500px;
-            background-size: 730px, 500px;
-            position: relative;
-        }
-
-
-
-    }
-
-}
-
-.interactiveContainer{
-
-
-    text-align: center;
-
-   
-
-
-    
-
-   
-
-    /*@media (min-width: 1440px) {
-       justify-content: flex-end;  
-        position: absolute; 
-        left: 550px;
-        top: 160px;  
-        width: 500px;
-        height: 340px;   
-    }*/
-
-  
-
-   
-    /*background-color: variables.$white;
-    
-   
-
-   
-    h1{
-        padding-bottom: 40px;
-
-
-    }
-
-
-}*/

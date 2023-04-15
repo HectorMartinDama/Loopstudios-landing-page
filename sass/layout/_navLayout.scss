@@ -96,25 +96,18 @@
 
 header{
 
-   
-    padding-top: 70px;
-    padding-left: 30px;
-    padding-right: 30px;
 
 
+    
     .prueba{
         display: flex;
         @media (min-width: 1440px) {
-            align-items: center;
-           
+            align-items: center; 
         }
     }
 
 
-    @media (min-width: 1440px) {
-        padding-left: 160px;
-        padding-right: 160px;
-    }
+    
 
 
     nav{

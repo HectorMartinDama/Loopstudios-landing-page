@@ -9,9 +9,9 @@ li, p, .separator h1, .interactiveVr h1, .card h1, .mobile-nav a {
 }
 
 .card h1 {
-  font-size: 40px;
   color: hsl(0, 0%, 100%);
   text-transform: uppercase;
+  font-size: 40px;
 }
 @media (min-width: 1440px) {
   .card h1 {
@@ -33,7 +33,7 @@ footer p {
   font-weight: 400;
 }
 
-.separator h1, .interactiveVr h1 {
+.separator h1, .separator a, .interactiveVr h1, .interactiveVr a, .mobile-nav h1, .mobile-nav a {
   text-transform: uppercase;
   font-size: 30px;
 }
@@ -42,11 +42,6 @@ footer p {
   color: hsl(0, 0%, 55%);
   font-family: "Alata", sans-serif;
   font-weight: 400;
-}
-
-.mobile-nav a {
-  font-size: 30px;
-  text-transform: uppercase;
 }
 
 .contenedor p {
@@ -68,6 +63,8 @@ footer {
 @media (min-width: 1440px) {
   .firstLine {
     flex-direction: row;
+    margin-left: 160px;
+    margin-right: 160px;
   }
 }
 
@@ -224,21 +221,13 @@ button {
   }
 }
 
-.galery {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 180px;
-}
-
 .templateGalery {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(1, 340px);
 }
 @media (min-width: 1440px) {
   .templateGalery {
-    grid-gap: 30px;
+    grid-gap: 35px;
   }
 }
 .templateGalery .btnContainer {
@@ -248,7 +237,8 @@ button {
 }
 @media (min-width: 1440px) {
   .templateGalery {
-    grid-template-columns: repeat(4, 250px);
+    grid-auto-rows: 450px;
+    grid-template-columns: repeat(auto-fill, 240px);
   }
   .templateGalery button {
     display: none;
@@ -258,8 +248,12 @@ button {
   position: relative;
   display: inline-block;
   height: 130px;
-  margin-left: 20px;
-  margin-right: 20px;
+}
+@media (max-width: 375px) {
+  .templateGalery .contenedor {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 @media (min-width: 1440px) {
   .templateGalery .contenedor {
@@ -296,8 +290,6 @@ footer {
 @media (min-width: 1440px) {
   footer {
     height: 160px;
-    padding-left: 160px;
-    padding-right: 160px;
   }
 }
 footer ul {
@@ -336,8 +328,6 @@ footer .iconsMobile {
 .separator {
   display: flex;
   justify-content: center;
-  padding-bottom: 80px;
-  padding-top: 180px;
 }
 .separator button {
   display: none;
@@ -345,7 +335,7 @@ footer .iconsMobile {
 @media (min-width: 1440px) {
   .separator {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .separator button {
     display: block;
@@ -410,23 +400,12 @@ footer .iconsMobile {
   left: 0;
 }
 
-header {
-  padding-top: 70px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
 header .prueba {
   display: flex;
 }
 @media (min-width: 1440px) {
   header .prueba {
     align-items: center;
-  }
-}
-@media (min-width: 1440px) {
-  header {
-    padding-left: 160px;
-    padding-right: 160px;
   }
 }
 header nav {
@@ -494,12 +473,25 @@ header .logo {
     bottom: 0;
   }
 }
-.interactiveVr {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
+@media (min-width: 1440px) {
+  .interactiveVr {
+    padding-top: 160px;
+  }
+}
+.interactiveVr .interactiveContainer {
+  padding-left: 10%;
+}
+@media (min-width: 1440px) {
+  .interactiveVr .interactiveContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 40%;
+    height: 300px;
+  }
+  .interactiveVr .interactiveContainer h1, .interactiveVr .interactiveContainer p {
+    text-align: start;
+  }
 }
 .interactiveVr .fondo {
   height: 200px;
@@ -510,6 +502,15 @@ header .logo {
 @media (min-width: 1440px) {
   .interactiveVr .fondo {
     background-image: url("../../images/desktop/image-interactive.jpg");
+    width: 60%;
+    height: 500px;
+  }
+}
+@media (min-width: 1440px) {
+  .interactiveVr {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
   }
 }
 .interactiveVr h1 {
@@ -520,6 +521,48 @@ header .logo {
   text-align: center;
 }
 
+main {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+@media (min-width: 1440px) {
+  main {
+    margin-right: 160px;
+    margin-left: 160px;
+  }
+}
+
+.separator {
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+@media (min-width: 1440px) {
+  .separator {
+    padding-bottom: 80px;
+    padding-top: 180px;
+  }
+}
+
+.interactiveVr {
+  padding-top: 50px;
+}
+@media (min-width: 1440px) {
+  .interactiveVr {
+    padding-top: 160px;
+  }
+}
+
+header {
+  padding-top: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media (min-width: 1440px) {
+  header {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+}
 
 * {
   padding: 0;
