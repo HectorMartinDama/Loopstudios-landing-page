@@ -9,8 +9,8 @@
 @use './sass/layout/navLayout';
 @use './sass/base/animation';
 @use './sass/utilities/variables';
-@use './sass/components/interactiveVr';
 @use './sass/layout/interactiveVrLayout';
+@use './sass/layout/marginsLayout';
 
 
 
@@ -19,7 +19,6 @@
     padding: 0;
     margin: 0;
 }
-
 
 a{
     color: variables.$white;
