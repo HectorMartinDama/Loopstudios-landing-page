@@ -86,10 +86,10 @@
     }
     
     &:nth-child(5){
-        background-image: url('/images/mobile/image-from-above.jpg');
+        background-image: url('Loopstudios-landing-page/images/mobile/image-from-above.jpg');
 
         @media (min-width: 1440px) {
-            background-image: url('/images/desktop/image-from-above.jpg');
+            background-image: url('Loopstudios-landing-page/images/desktop/image-from-above.jpg');
 
             &:hover{
                 background: linear-gradient(rgba(250,250,250, 0.3),
