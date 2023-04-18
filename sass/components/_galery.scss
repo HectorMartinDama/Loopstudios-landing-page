@@ -34,11 +34,11 @@
 
 
         @media (min-width: 1440px) {
-            background-image: url('../images/desktop/image-deep-earth.jpg');
+            background-image: url('/images/desktop/image-deep-earth.jpg');
             
             &:hover{
                 background: linear-gradient(rgba(250,250,250, 0.3),
-                rgba(250,250,250, 0.6)), url('../images/desktop/image-deep-earth.jpg');
+                rgba(250,250,250, 0.6)), url('/images/desktop/image-deep-earth.jpg');
             }
         }
     }
