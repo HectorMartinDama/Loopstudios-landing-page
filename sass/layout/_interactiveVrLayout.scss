@@ -5,8 +5,7 @@
 .interactiveVr{
 
 
-
-    //padding-top: 100px;
+    text-align: center;
     
 
     @media (min-width: 1440px) {
@@ -19,14 +18,10 @@
    
 
     .interactiveContainer{
-        
-        
-
 
         
-        padding-left: 10%;
-
-
+        
+        
 
         @media (min-width: 1440px) {
             display: flex;
@@ -69,7 +64,6 @@
         display: flex;
         flex-direction: row;
         align-items: flex-end;
-       
     }
 
 

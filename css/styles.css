@@ -478,13 +478,13 @@ header .logo {
     bottom: 0;
   }
 }
+.interactiveVr {
+  text-align: center;
+}
 @media (min-width: 1440px) {
   .interactiveVr {
     padding-top: 160px;
   }
-}
-.interactiveVr .interactiveContainer {
-  padding-left: 10%;
 }
 @media (min-width: 1440px) {
   .interactiveVr .interactiveContainer {
