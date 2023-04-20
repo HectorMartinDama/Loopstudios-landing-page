@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/HectorMartinDama/Loopstudios-landing-page)
-- Live Site URL: [Add live site URL here](https://loopstudios-landing-page-hectormartindama.vercel.app/)
+- Solution URL: [here] (https://github.com/HectorMartinDama/Loopstudios-landing-page)
+- Live Site URL: [here](https://loopstudios-landing-page-hectormartindama.vercel.app/)
 
 ## My process
 
@@ -44,6 +44,8 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- Partials
+- 7-1 Sass Architecture
 
 
 ## Author
